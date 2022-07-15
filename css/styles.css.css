@@ -1,0 +1,27 @@
+h4{
+  font-size: 15px
+
+}
+
+body{
+  color: #c9dae8;
+  background-image: url(https://wallpapertag.com/wallpaper/full/b/c/4/143811-full-size-good-background-1920x1200-for-hd-1080p.jpg);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-position: automatically;
+}
+hr{
+  scroll-behavior: smooth;
+  border: none;
+  border-top: 5px dotted;
+  width: 17%;
+  color: #7a797a;
+}
+.textt
+  ::-ms-input-placeholder { /* Microsoft Edge */
+  color: red;
+}
+
+input{
+  background-color: #363238;
+}
