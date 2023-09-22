@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+        <title>My CV Website</title>
+        <link rel="stylesheet" href="css/styles.css.css">
+        <script defer src="app.js"></script>
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="feedbacks.html">Feedbacks</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="uni.html">UNIVERSITY</a>
+        </nav>
+        <header class="center">
+            <h1>Feedbacks</h1>
+        </header>
+        <main class="white">
+            <h1> Your feedback:</h1>
+            <table class="right">
+                <tr>
+                    <td>
+                        <label for="name">Name:</label>
+                        <input type="text" placeholder="Please provide your name" id="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label style="padding: auto;"" for="name">Feedback:</label>
+                        <textarea placeholder="Your feedback...."" id="feedback" cols="30" rows="10"></textarea>
+                    </td>
+                    <td>
+                            <button onclick="send()">Send</button>
+                    </td>
+                </tr>
+            </table>
+            <!-- <input type="text" placeholder="Your feedback" id="feedback"> -->
+            <div id="result""></div>
+            <div id="text_feedback"></div>
+            <div id="empty_field"></div>
+        </main>
+
+    </body>
+</html>
