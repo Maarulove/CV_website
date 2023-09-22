@@ -11,13 +11,17 @@ nav {
   padding: 5px;
   font-size: larger;
   margin: 2%;
+  border-radius: 5px;
 
 }
 
-nav a:hover{
-  background-color: #FB8122;
-  color: E1E2E2;  
+nav a:hover {
+  border:solid #9d9087;
+  background-color: #9d9087;
+  border-right-width: 5px;
+  border-left-width: 5px;
 }
+
 
 a{
   transition: 0.5s;
@@ -37,9 +41,9 @@ hr {
   scroll-behavior: smooth;
   border: wheat;
   border-top: 5px dotted;
-  width: 37%;
+  width: 90%;
   color: #7a797a;
-  padding: 50px;
+  /* padding: 50px; */
 }
 .textt
   ::-ms-input-placeholder { /* Microsoft Edge */
@@ -82,7 +86,7 @@ h1 {
 .right {
   padding: 15px;
   width: 20%;
-  background-color: #211f22;
+  background-color: #242424;
 }
 
 input {
@@ -90,9 +94,31 @@ input {
 }
 
 textarea {
-  background-color: white;
+  background-color: aliceblue;
+  border-radius: 4%;
 }
 
 .underline{
   text-decoration: underline;
+}
+
+
+.empty_field {
+  color: red;
+}
+
+.white {
+  /* background-color: #7a797a; */
+  width: 30%;
+}
+
+
+button:hover{
+  border-width: 5px;
+  border-color: aquamarine;
+  background-color: bisque;
+}
+.center {
+  display: flex;
+  justify-content: center;
 }
