@@ -15,16 +15,19 @@
             <a href="portfolio.html">Portfolio</a>
             <a href="uni.html">UNIVERSITY</a>
         </nav>
+
         <header class="center">
             <h1>Feedbacks</h1>
         </header>
+        
         <main class="white">
             <h1> Your feedback:</h1>
             <table class="right">
                 <tr>
-                    <td>
+                    <td class="clear_class">
                         <label for="name">Name:</label>
-                        <input type="text" placeholder="Please provide your name" id="name">
+                        <input type="text" placeholder="Your name here" id="name">
+                        <button class="clear_button" onclick="clear_input() ">Clear</button>
                     </td>
                 </tr>
                 <tr>
@@ -32,15 +35,27 @@
                         <label style="padding: auto;"" for="name">Feedback:</label>
                         <textarea placeholder="Your feedback...."" id="feedback" cols="30" rows="10"></textarea>
                     </td>
+                    
                     <td>
-                            <button onclick="send()">Send</button>
+                        <button onclick="send()">Send</button>
+                    </td>
+
+                </tr>    
+                <tr>
+                    
+                    <td>
+
+                        <input type="checkbox" name="" id="is_agree">
+                        <label>I'm agree with <a href="Privacy Policy.HTML"><strong class="underline">Privacy Terms</strong></a> </label>
                     </td>
                 </tr>
             </table>
-            <!-- <input type="text" placeholder="Your feedback" id="feedback"> -->
+
             <div id="result""></div>
             <div id="text_feedback"></div>
             <div id="empty_field"></div>
+
+ 
         </main>
 
     </body>

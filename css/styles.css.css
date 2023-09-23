@@ -114,11 +114,21 @@ textarea {
 
 
 button:hover{
-  border-width: 5px;
+  font-style: italic;
+  border-width: 2px;
   border-color: aquamarine;
   background-color: bisque;
 }
 .center {
   display: flex;
   justify-content: center;
+}
+
+.clear_class {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  margin: 10px;
 }
